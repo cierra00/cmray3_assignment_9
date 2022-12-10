@@ -33,7 +33,7 @@ const getAllPosts = async () => {
 // all the posts. The function should
 // return all the posts as JSON data.
 const getAllUsers = async () => {
-    const url = 'https://jsonplaceholder.typicode.com/posts'; 
+    const url = 'https://jsonplaceholder.typicode.com/users'; 
     const data = await (await fetch(url)).json();
     console.log(data);
 }
